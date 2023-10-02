@@ -133,18 +133,17 @@ geffen,120,62,0	script	Kafra Employee::kaf_geffen	115,{
 	savepoint "geffen",119,40,1,1;
 	callfunc "F_KafEnd",0,1,"in the city of Geffen";
 }
-// aqui
 
 geffen,203,123,2	script	Kafra Employee::geffen2	114,{
 	cutin "kafra_04",2;
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
 	mes "Bem-vindo!";
-	mes "The Kafra Corporation";
-	mes "will always support the";
-	mes "adventurers of Rune-Midgarts";
-	mes "with its excellent service. So";
-	mes "what can I do for you today?";
+	mes "A Corporação Kafra;";
+	mes "sempre apoiará os";
+	mes "aventureiros de Rune-Midgarts";
+	mes "com seu excelente serviço. Então";
+	mes "o que posso fazer por você hoje?";
 	callfunc "F_Kafra",5,0,0,30,750;
 	savepoint "geffen",200,124,1,1;
 	callfunc "F_KafEnd",0,1,"in the city of Geffen";
@@ -156,10 +155,10 @@ morocc,156,97,4	script	Kafra Employee::kaf_morocc	113,{
 	cutin "kafra_05",2;
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
-	mes "The Kafra Corporation";
-	mes "is always working to provide";
-	mes "you with convenient services.";
-	mes "How may I be of assistance?";
+	mes "A Corporação Kafra";
+	mes "está sempre trabalhando para fornecer";
+	mes "você com serviços convenientes.";
+	mes "Como posso ajudar?";
 	callfunc "F_Kafra",5,0,0,60,930;
 	savepoint "morocc",156,46,1,1;
 	callfunc "F_KafEnd",0,1,"in the city of Morocc";
@@ -170,11 +169,11 @@ morocc,160,258,4	script	Kafra::kaf_morocc2	114,{
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
 	mes "Bem-vindo!";
-	mes "The Kafra Corporation";
-	mes "will always support the";
-	mes "adventurers of Rune-Midgarts";
-	mes "with its excellent service. So";
-	mes "what can I do for you today?";
+	mes "A Corporação Kafra";
+	mes "sempre apoiará os";
+	mes "aventureiros de Rune-Midgarts";
+	mes "com seu excelente serviço. Então";
+	mes "o que eu posso fazer para você hoje?";
 	callfunc "F_Kafra",5,0,0,60,930;
 	savepoint "morocc",157,272,1,1;
 	callfunc "F_KafEnd",0,1,"in the city of Morocc";
@@ -186,10 +185,10 @@ payon,181,104,4	script	Kafra Employee::kaf_payon	113,{
 	cutin "kafra_05",2;
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
-	mes "The Kafra Corporation";
-	mes "is always working to provide";
-	mes "you with convenient services.";
-	mes "How may I be of assistance?";
+	mes "A Corporação Kafra";
+	mes "está sempre trabalhando para fornecer";
+	mes "você com serviços convenientes.";
+	mes "Como posso ajudar?";
 	callfunc "F_Kafra",5,0,1,60,930;
 	savepoint "payon",160,58,1,1;
 	callfunc "F_KafEnd",0,1,"in the city of Payon";
@@ -199,7 +198,7 @@ payon,175,226,4	script	Kafra Employee::kaf_payon2	116,{
 	cutin "kafra_02",2;
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
-	mes "Bem-vindo to the";
+	mes "Bem-vindo ao"; //aqui
 	mes "Kafra Corporation.";
 	mes "The Kafra services are";
 	mes "always on your side.";
